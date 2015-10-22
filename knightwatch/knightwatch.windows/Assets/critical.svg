@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="257.40704"
+   height="125.22344"
+   id="svg4118"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="critical.svg"
+   inkscape:export-filename="E:\Dropbox\Capstone Repo\netmonitor\trunk\code\KnightWatchClient\img\critical.png"
+   inkscape:export-xdpi="97"
+   inkscape:export-ydpi="97">
+  <defs
+     id="defs4120" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="105.33476"
+     inkscape:cy="60.892294"
+     inkscape:document-units="px"
+     inkscape:current-layer="g4703"
+     showgrid="false"
+     inkscape:snap-bbox="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:bbox-nodes="true"
+     inkscape:bbox-paths="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1600"
+     inkscape:window-height="1138"
+     inkscape:window-x="1272"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1">
+    <sodipodi:guide
+       orientation="1,0"
+       position="48.137122,62.611717"
+       id="guide4136" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="209.26993,62.611717"
+       id="guide4138" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="128.70352,76.586327"
+       id="guide4140" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="128.70352,48.637107"
+       id="guide4142" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="128.70352,62.61172"
+       id="guide4660" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="65.562251,125.22345"
+       id="guide4715" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="3e-006,69.345238"
+       id="guide4717" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="257.40705,68.335086"
+       id="guide4719" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="137.28308,0.49999425"
+       id="guide4721" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="6.017928,82.630444"
+       id="guide4725" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="200.68651,119.20552"
+       id="guide4727" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="3.008966,42.592997"
+       id="guide4729" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata4123">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-307.75015,-376.4985)">
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Aharoni;-inkscape-font-specification:Aharoni Bold"
+       x="354.28571"
+       y="452.36218"
+       id="text4126"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4128"
+         x="354.28571"
+         y="452.36218"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Aharoni;-inkscape-font-specification:Aharoni Bold">CRITICAL</tspan></text>
+    <g
+       id="g4677">
+      <rect
+         y="408.5618"
+         x="372.49933"
+         height="6.0738139"
+         width="127.90864"
+         id="rect4654"
+         style="fill:#640000;fill-opacity:1;stroke:none" />
+      <rect
+         style="fill:#c80000;fill-opacity:1;stroke:none"
+         id="rect4656"
+         width="135.93684"
+         height="6.0453916"
+         x="368.48523"
+         y="392.51642" />
+      <rect
+         y="376.4985"
+         x="364.47064"
+         height="6.0179257"
+         width="143.96602"
+         id="rect4658"
+         style="fill:#ff0000;fill-opacity:1;stroke:none" />
+    </g>
+    <g
+       id="g4683"
+       transform="matrix(-1,0,0,-1,872.90733,877.72046)">
+      <rect
+         style="fill:#640000;fill-opacity:1;stroke:none"
+         id="rect4685"
+         width="127.90864"
+         height="6.0738139"
+         x="372.49933"
+         y="408.5618" />
+      <rect
+         y="392.51642"
+         x="368.48523"
+         height="6.0453916"
+         width="135.93684"
+         id="rect4687"
+         style="fill:#c80000;fill-opacity:1;stroke:none" />
+      <rect
+         style="fill:#ff0000;fill-opacity:1;stroke:none"
+         id="rect4689"
+         width="143.96602"
+         height="6.0179257"
+         x="364.47064"
+         y="376.4985" />
+    </g>
+    <g
+       id="g4693"
+       transform="matrix(0,-0.27810346,1,0,-68.748352,560.4895)">
+      <rect
+         style="fill:#640000;fill-opacity:1;stroke:none"
+         id="rect4695"
+         width="127.90864"
+         height="6.0738139"
+         x="372.49933"
+         y="408.5618" />
+      <rect
+         y="392.51642"
+         x="368.48523"
+         height="6.0453916"
+         width="135.93684"
+         id="rect4697"
+         style="fill:#c80000;fill-opacity:1;stroke:none" />
+      <rect
+         style="fill:#ff0000;fill-opacity:1;stroke:none"
+         id="rect4699"
+         width="143.96602"
+         height="6.0179257"
+         x="364.47064"
+         y="376.4985" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="rect4701"
+         width="2.7678571"
+         height="10"
+         x="435.06973"
+         y="414.63562" />
+    </g>
+    <g
+       transform="matrix(0,0.27810346,-1,0,941.6557,317.73096)"
+       id="g4703">
+      <rect
+         y="408.5618"
+         x="372.49933"
+         height="6.0738139"
+         width="127.90864"
+         id="rect4705"
+         style="fill:#640000;fill-opacity:1;stroke:none" />
+      <rect
+         style="fill:#c80000;fill-opacity:1;stroke:none"
+         id="rect4707"
+         width="135.93684"
+         height="6.0453916"
+         x="368.48523"
+         y="392.51642" />
+      <rect
+         y="376.4985"
+         x="364.47064"
+         height="6.0179257"
+         width="143.96602"
+         id="rect4709"
+         style="fill:#ff0000;fill-opacity:1;stroke:none" />
+    </g>
+    <path
+       style="fill:#c00000;fill-opacity:1;stroke:none"
+       d="M -48.137117,-11.599953 1.9335938e-6,-48.637115 8.5833721,-6.0441142 z"
+       id="path4731"
+       inkscape:connector-curvature="0"
+       transform="translate(355.88727,425.13562)"
+       sodipodi:nodetypes="cccc" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path4733"
+       d="m 565.15715,413.53567 -48.13712,-37.03716 -8.58337,42.593 z"
+       style="fill:#c00000;fill-opacity:1;stroke:none" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path4735"
+       d="m 307.75015,464.68479 48.13712,37.03716 8.58337,-42.593 z"
+       style="fill:#c00000;fill-opacity:1;stroke:none" />
+    <path
+       style="fill:#c00000;fill-opacity:1;stroke:none"
+       d="m 565.15715,464.68479 -48.13712,37.03716 -8.58337,-42.593 z"
+       id="path4737"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+  </g>
+</svg>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WIN9-VM</Machine>
+    <WindowsUser>bulze_000</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>77198afd-8309-42b9-a40b-b78686c0f0b4</PackageIdentityName>
+    <IntermediateOutputPath>E:\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="E:\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\%24%28Temp%29\%24%28MSBuildProjectName%29\Bin\%24%28Configuration%29\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\%24%28Temp%29\%24%28MSBuildProjectName%29\Bin\%24%28Configuration%29\KnightWatch.Windows.exe">
+      <PackagePath>KnightWatch.Windows.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\%24%28Temp%29\%24%28MSBuildProjectName%29\Bin\%24%28Configuration%29\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\%24%28Temp%29\%24%28MSBuildProjectName%29\Bin\%24%28Configuration%29\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\%24%28Temp%29\%24%28MSBuildProjectName%29\Bin\%24%28Configuration%29\KnightWatch.Windows.xr.xml">
+      <PackagePath>KnightWatch.Windows.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\%24%28Temp%29\%24%28MSBuildProjectName%29\Bin\%24%28Configuration%29\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

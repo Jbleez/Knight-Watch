@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="KnightWatch.App" Collapsed="true">
+    <Position X="21" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAIAAA=</HashCode>
+      <FileName>F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Shared\App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KnightWatch.ChartData" Collapsed="true">
+    <Position X="24.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEACAAAAAAIBACAAgAAAAyAgAAAAABAAAAACQAAAAA=</HashCode>
+      <FileName>F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Shared\ChartData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KnightWatch.HelpDeskTickets" Collapsed="true">
+    <Position X="19.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAEAEBAAQAAAAAAAAEAACAAAEAAAAA=</HashCode>
+      <FileName>F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Shared\HelpDeskTickets.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KnightWatch.CriticalResponse">
+    <Position X="1" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAACAAAAAACAAAAAACAAAAAAIgIAA=</HashCode>
+      <FileName>F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Shared\HelpDeskTickets.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KnightWatch.PriorityResponse">
+    <Position X="5.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAACBAAAAAAQAACCAIAAAAABAAAAAAAAAIgIAE=</HashCode>
+      <FileName>F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Shared\HelpDeskTickets.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KnightWatch.StatusResponse">
+    <Position X="10" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAACAAABgAAAMAAAAAAAAAQQEAAAIAgAAAAAIkMAA=</HashCode>
+      <FileName>F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Shared\HelpDeskTickets.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KnightWatch.CategoryResponse">
+    <Position X="14.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAJAAAARAgABAEIgAIAAAAAAAACAAAEAIAmIIgIAA=</HashCode>
+      <FileName>F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Shared\HelpDeskTickets.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KnightWatch.TicketSearch" Collapsed="true">
+    <Position X="19.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQAAAIQAgAAAAAAQAoAAAAFEJAoAAQAABDACBIASAAA=</HashCode>
+      <FileName>F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Shared\HelpDeskTickets.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KnightWatch.ChartHelper" Collapsed="true">
+    <Position X="2.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Shared\HelpDeskTickets.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KnightWatch.StatusChart">
+    <Position X="0.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABCIAAAAEQAABAKAQAAQAIEAAABcAAAAAAAkAIAAA=</HashCode>
+      <FileName>F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Shared\HelpDeskTickets.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KnightWatch.CategoryChart">
+    <Position X="2.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAQAAAAQAAAAAJAAAAAAAAIIAAAAAAAAAAAgIAA=</HashCode>
+      <FileName>F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Shared\HelpDeskTickets.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KnightWatch.PriorityChart">
+    <Position X="5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAACAQAAAEQAAAAAAAAggBAAQCAEAAAAAAgAAACAEA=</HashCode>
+      <FileName>F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Shared\HelpDeskTickets.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KnightWatch.JSONReader">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAACAAAAAACAAAAAAAABAAAAIgIAA=</HashCode>
+      <FileName>F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Shared\JSONReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KnightWatch.MainPageItems" Collapsed="true">
+    <Position X="24.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAEQQAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Shared\MainPageItems.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KnightWatch.MainPageItemsControl" Collapsed="true">
+    <Position X="26.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Shared\MainPageItemsControl.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KnightWatch.PowerManagement" Collapsed="true">
+    <Position X="26.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Shared\PowerManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KnightWatch.Fan" Collapsed="true">
+    <Position X="26.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAgAABAAAAAAABAAAQCAAAAAA=</HashCode>
+      <FileName>F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Shared\PowerManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KnightWatch.FanSpeed">
+    <Position X="3.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAABAAAAAAAAAAAAAAAAAAAQAABAAAAAIgIAA=</HashCode>
+      <FileName>F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Shared\PowerManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KnightWatch.FanCooling">
+    <Position X="7.75" Y="3.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAABIAAAAAACAAAAAAAAAAAAAAACAgABIgJAA=</HashCode>
+      <FileName>F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Shared\PowerManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KnightWatch.FanTemp">
+    <Position X="12.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CGAAAAAAABAAAAAAAAAAAAAAAAABIAAAAAAASAIgIAA=</HashCode>
+      <FileName>F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Shared\PowerManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KnightWatch.PDUData">
+    <Position X="16.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAIBAAAAAHAHAIAADgAQAAAAAAAMA5AIKjIAA=</HashCode>
+      <FileName>F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Shared\PowerManagement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KnightWatch.stripChart" Collapsed="true">
+    <Position X="24.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Shared\stripChart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KnightWatch.pduView" Collapsed="true">
+    <Position X="24.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAAYAAAgIAAAAAAAAAAQIAAAAAAQAAAAEAAEAAEQ=</HashCode>
+      <FileName>F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Shared\Views\pduView.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KnightWatch.powerstripsView" Collapsed="true">
+    <Position X="28" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAQAIYAAAgAAAEAAAAAAAQIAAAABAQAAAAEAAEAAEA=</HashCode>
+      <FileName>F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Shared\Views\powerstripsView.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KnightWatch.MainPage" Collapsed="true">
+    <Position X="22.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAEAAAAoAACAAAAAAAAAAAAAAAEAAAAAAAAABAA=</HashCode>
+      <FileName>MainPage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KnightWatch.Common.NavigationHelper" Collapsed="true">
+    <Position X="19.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAQAAAAUCAQAAAACAAIRAQAAAQAAAUAAAAAAAABAAk=</HashCode>
+      <FileName>F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Shared\Common\NavigationHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KnightWatch.Common.LoadStateEventArgs" Collapsed="true">
+    <Position X="21" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Shared\Common\NavigationHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KnightWatch.Common.SaveStateEventArgs" Collapsed="true">
+    <Position X="22.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Shared\Common\NavigationHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KnightWatch.Common.ObservableDictionary" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCIAAABAAAAEABAQCAAABAQBAAAAAAAAAAAgAABQIAA=</HashCode>
+      <FileName>F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Shared\Common\ObservableDictionary.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KnightWatch.Common.RelayCommand" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQEACAAQAAECAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Shared\Common\RelayCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="KnightWatch.Common.SuspensionManager" Collapsed="true">
+    <Position X="26.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAaIAASCBEAAAICAAAAAIAAAAAAAAAAIAAAAhA=</HashCode>
+      <FileName>F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Shared\Common\SuspensionManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KnightWatch.Common.SuspensionManagerException" Collapsed="true">
+    <Position X="28" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Shared\Common\SuspensionManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KnightWatch.Services.Navigation" Collapsed="true">
+    <Position X="28" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAgAIAACEAAAAAgRAIAAA=</HashCode>
+      <FileName>F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Shared\Services\Navigation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KnightWatch.Views.AdminView" Collapsed="true">
+    <Position X="19.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAYAAAAAAAAAAAAAAAQAAAAAAAQAAAAEAAEAAEA=</HashCode>
+      <FileName>F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Shared\Views\AdminView.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KnightWatch.Views.BackupsView" Collapsed="true">
+    <Position X="22.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAIYAAAAAAAAAAAAAAAQAAAAAAAUAAACEAAEAAEg=</HashCode>
+      <FileName>F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Shared\Views\BackupsView.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KnightWatch.Views.HelpDesk" Collapsed="true">
+    <Position X="28" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQAQAAYAABgAAAEAAAAAgEQIASIAEwQAIgAkAAEYBEg=</HashCode>
+      <FileName>F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Shared\Views\HelpDesk.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KnightWatch.Views.NetworkM" Collapsed="true">
+    <Position X="21" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAYAAAAAAAAAAAAAAAQAAAAAAAQAAAAEAAEAAEA=</HashCode>
+      <FileName>F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Shared\Views\NetworkView.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KnightWatch.Views.PowerView" Collapsed="true">
+    <Position X="19.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQAQAIYAACgIAAEAAAAAAAQIAAAABAQAAAAEAAFAAEg=</HashCode>
+      <FileName>F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Shared\Views\PowerView.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KnightWatch.Views.VirtualE" Collapsed="true">
+    <Position X="21" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAYAAAAAAAAAAAAAAAQAAAAAAAQAAAAEAAEAAEA=</HashCode>
+      <FileName>F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Shared\Views\VirtualView.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Delegate Name="KnightWatch.Common.LoadStateEventHandler" Collapsed="true">
+    <Position X="19.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Shared\Common\NavigationHelper.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="KnightWatch.Common.SaveStateEventHandler" Collapsed="true">
+    <Position X="21" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Shared\Common\NavigationHelper.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

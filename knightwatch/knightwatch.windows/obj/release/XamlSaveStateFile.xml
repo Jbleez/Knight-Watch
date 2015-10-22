@@ -1,0 +1,10 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="f:\knightwatch\trunk\code\knightwatchclient\knightwatch\knightwatch.windows\obj\release\intermediatexaml\knightwatch.windows.exe" HashGuid="2f09b2af-a12d-0693-384b-0fa90240845f" />
+    <ReferenceAssembly PathName="f:\knightwatch\trunk\code\knightwatchclient\packages\charmflyout.1.0.12\lib\winrt45\charmflyoutlibrary.dll" HashGuid="ef625e87-4eec-f492-f96f-f93f2cc1366b" />
+    <ReferenceAssembly PathName="f:\knightwatch\trunk\code\knightwatchclient\packages\winrtxamltoolkit.controls.calendar.windows.1.7.3.0\lib\netcore451\winrtxamltoolkit.controls.calendar.dll" HashGuid="a4700326-2907-d1b3-8ee4-8aee0d73fee6" />
+    <ReferenceAssembly PathName="f:\knightwatch\trunk\code\knightwatchclient\packages\winrtxamltoolkit.controls.datavisualization.1.6.1.3\lib\netcore451\winrtxamltoolkit.controls.datavisualization.dll" HashGuid="be684ae2-5628-42c1-f25a-53d124102458" />
+    <ReferenceAssembly PathName="f:\knightwatch\trunk\code\knightwatchclient\packages\winrtxamltoolkit.controls.gauge.windows.1.7.3.0\lib\netcore451\winrtxamltoolkit.controls.gauge.dll" HashGuid="4a63d208-3854-ae51-fea4-fda72e2d643a" />
+    <ReferenceAssembly PathName="f:\knightwatch\trunk\code\knightwatchclient\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\winrtxamltoolkit.dll" HashGuid="a4cdc2c2-a01c-5ec1-da22-75d5d070a5d3" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

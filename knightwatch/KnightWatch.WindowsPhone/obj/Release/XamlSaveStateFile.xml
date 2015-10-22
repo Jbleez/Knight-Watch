@@ -1,0 +1,8 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="f:\knightwatch\trunk\code\knightwatchclient\knightwatch\knightwatch.windowsphone\obj\release\intermediatexaml\knightwatch.windowsphone.exe" HashGuid="38dc4768-cf6c-54f2-7e5f-17ab9f6fa080" />
+    <ReferenceAssembly PathName="f:\knightwatch\trunk\code\knightwatchclient\packages\winrtxamltoolkit.controls.datavisualization.windowsphone.1.7.3.0\lib\wpa\winrtxamltoolkit.controls.datavisualization.dll" HashGuid="1f891e1e-cc72-f5b0-c4b4-25ed6863d0a5" />
+    <ReferenceAssembly PathName="f:\knightwatch\trunk\code\knightwatchclient\packages\winrtxamltoolkit.controls.gauge.windowsphone.1.7.3.0\lib\wpa\winrtxamltoolkit.controls.gauge.dll" HashGuid="a3c46d4d-f189-0781-bdbf-516c1edb2e4e" />
+    <ReferenceAssembly PathName="f:\knightwatch\trunk\code\knightwatchclient\packages\winrtxamltoolkit.windowsphone.1.7.3.0\lib\wpa\winrtxamltoolkit.dll" HashGuid="cd1bf681-08b0-8bf0-5e55-db3358c3da9d" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

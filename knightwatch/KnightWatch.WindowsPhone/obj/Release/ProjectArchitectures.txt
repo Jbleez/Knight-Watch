@@ -1,0 +1,1 @@
+F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.WindowsPhone\KnightWatch.WindowsPhone.csproj;neutral

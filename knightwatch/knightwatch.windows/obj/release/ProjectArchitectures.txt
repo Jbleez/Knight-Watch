@@ -1,0 +1,1 @@
+F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\KnightWatch.Windows.csproj;neutral

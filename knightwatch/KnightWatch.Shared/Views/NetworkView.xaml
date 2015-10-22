@@ -1,0 +1,168 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:KnightWatch.Views"
+    xmlns:common="using:KnightWatch.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Controls="using:WinRTXamlToolkit.Controls"
+    
+    x:Name="pageRoot"
+    x:Class="KnightWatch.Views.NetworkM"
+       DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Mode=Self}}"
+    mc:Ignorable="d">
+	<Page.Resources>
+		<Style x:Key="esxiStyle" TargetType="TextBlock" >
+			<Setter Property="FontSize" Value="18" />
+            <Setter Property="Foreground" Value="White" />
+		</Style>
+		<Style x:Key="statStyle" TargetType="TextBlock">
+			<Setter Property="FontSize" Value="16" />
+            <Setter Property="Foreground" Value="White" />
+        </Style>
+		
+	</Page.Resources>
+
+
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" RequestedTheme="Dark">
+		<Grid.ChildrenTransitions>
+			<TransitionCollection>
+				<EntranceThemeTransition/>
+			</TransitionCollection>
+		</Grid.ChildrenTransitions>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="140"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+
+		<!-- Back button and page title -->
+		<Grid Margin="1,-27,-1,27">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="120"/>
+				<ColumnDefinition Width="*"/>
+			</Grid.ColumnDefinitions>
+			<Button x:Name="backButton" Margin="39,59,39,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+				Style="{StaticResource NavigationBackButtonNormalStyle}"
+				VerticalAlignment="Top"
+				AutomationProperties.Name="Back"
+				AutomationProperties.AutomationId="BackButton"
+				AutomationProperties.ItemType="Navigation Button"/>
+			<TextBlock x:Name="pageTitle" Text="Network Status" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+				IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40"/>
+		</Grid>
+		<Grid HorizontalAlignment="Left" Height="624" Margin="100,-10,0,0" VerticalAlignment="Top" Width="1366" Grid.Row="1" >
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="1*"/>
+				<ColumnDefinition Width="1*"/>
+				<ColumnDefinition Width="1*"/>
+				<ColumnDefinition Width="2*"/>
+			</Grid.ColumnDefinitions>
+			<Grid.RowDefinitions>
+				<RowDefinition Height="1*"/>
+				<RowDefinition Height="1*"/>
+				<RowDefinition Height="1*"/>
+			
+			</Grid.RowDefinitions>
+			<Grid Grid.Row="0" Grid.Column="0">
+				<TextBlock TextWrapping="Wrap" Text="ESXI DATA SERVER 1" Margin="0,1,2,160" RenderTransformOrigin="0.5,0.5" Style="{StaticResource esxiStyle}"/>
+				<TextBlock Style="{StaticResource statStyle}" Margin="4,98,178,69" TextWrapping="Wrap" Text="Status : " RenderTransformOrigin="0.5,0.5"/>
+
+				<TextBlock  Style="{StaticResource statStyle}" HorizontalAlignment="Left" Height="23" Margin="4,172,0,0" TextWrapping="Wrap" Text="Ping :" VerticalAlignment="Top" Width="78"/>
+				<ToggleSwitch HorizontalAlignment="Left" Height="48" Margin="101,77,0,0" VerticalAlignment="Top" Width="123" RenderTransformOrigin="0.474,0.521"/>
+			</Grid>
+			<Grid Grid.Row="0" Grid.Column="1">
+				<TextBlock TextWrapping="Wrap" Style="{StaticResource esxiStyle}" Text="ESXI DATA SERVER 2" Margin="0,1,2,160" RenderTransformOrigin="0.5,0.5"/>
+				<TextBlock  Style="{StaticResource statStyle}" Margin="2,89,183,87" TextWrapping="Wrap" Text="Status : " RenderTransformOrigin="0.5,0.5"/>
+				<ToggleSwitch HorizontalAlignment="Left" Height="48" Margin="101,77,0,0" VerticalAlignment="Top" Width="123" RenderTransformOrigin="0.474,0.521"/>
+		
+				<TextBlock  Style="{StaticResource statStyle}" HorizontalAlignment="Left" Height="23" Margin="4,172,0,0" TextWrapping="Wrap" Text="Ping :" VerticalAlignment="Top" Width="78"/>
+			</Grid>
+     
+			<Grid Grid.Row="0" Grid.Column="2">
+				<TextBlock TextWrapping="Wrap" Style="{StaticResource esxiStyle}" Text="ESXI DATA SERVER 3" Margin="0,1,2,160" RenderTransformOrigin="0.5,0.5"/>
+				<TextBlock  Style="{StaticResource statStyle}" Margin="2,89,183,87" TextWrapping="Wrap" Text="Status : " RenderTransformOrigin="0.5,0.5"/>
+				<TextBlock  Style="{StaticResource statStyle}"  HorizontalAlignment="Left" Height="23" Margin="4,172,0,0" TextWrapping="Wrap" Text="Ping :" VerticalAlignment="Top" Width="78"/>
+				<ToggleSwitch HorizontalAlignment="Left" Height="48" Margin="101,77,0,0" VerticalAlignment="Top" Width="123" RenderTransformOrigin="0.474,0.521"/>
+			</Grid>
+			<Grid Grid.Row="1" Grid.Column="0">
+				<TextBlock TextWrapping="Wrap" Style="{StaticResource esxiStyle}" Text="ESXI DATA SERVER 4" Margin="-3,24,5,137" RenderTransformOrigin="0.5,0.5"/>
+				<TextBlock  Style="{StaticResource statStyle}" Margin="2,89,183,87" TextWrapping="Wrap" Text="Status : " RenderTransformOrigin="0.5,0.5"/>
+				<TextBlock  Style="{StaticResource statStyle}" HorizontalAlignment="Left" Height="23" Margin="4,172,0,0" TextWrapping="Wrap" Text="Ping :" VerticalAlignment="Top" Width="78"/>
+				<ToggleSwitch HorizontalAlignment="Left" Height="48" Margin="101,77,0,0" VerticalAlignment="Top" Width="123" RenderTransformOrigin="0.474,0.521"/>
+			</Grid>
+			<Grid Grid.Row="1" Grid.Column="1">
+				<TextBlock TextWrapping="Wrap" Style="{StaticResource esxiStyle}" Text="ESXI DATA SERVER 5" Margin="1,23,1,138" RenderTransformOrigin="0.5,0.5"/>
+				<TextBlock  Style="{StaticResource statStyle}" Margin="2,89,183,87" TextWrapping="Wrap" Text="Status : " RenderTransformOrigin="0.5,0.5"/>
+				<TextBlock  Style="{StaticResource statStyle}" HorizontalAlignment="Left" Height="23" Margin="4,172,0,0" TextWrapping="Wrap" Text="Ping :" VerticalAlignment="Top" Width="78"/>
+				<ToggleSwitch HorizontalAlignment="Left" Height="48" Margin="101,77,0,0" VerticalAlignment="Top" Width="123" RenderTransformOrigin="0.474,0.521"/>
+	
+			</Grid>
+			<Grid Grid.Row="1" Grid.Column="2">
+				<TextBlock TextWrapping="Wrap" Style="{StaticResource esxiStyle}" Text="ESXI DATA SERVER 6" Margin="-1,24,3,137" RenderTransformOrigin="0.5,0.5"/>
+				<TextBlock  Style="{StaticResource statStyle}" Margin="2,89,183,87" TextWrapping="Wrap" Text="Status : " RenderTransformOrigin="0.5,0.5"/>
+				<TextBlock  Style="{StaticResource statStyle}" HorizontalAlignment="Left" Height="23" Margin="4,172,0,0" TextWrapping="Wrap" Text="Ping :" VerticalAlignment="Top" Width="78"/>
+				<ToggleSwitch HorizontalAlignment="Left" Height="48" Margin="101,77,0,0" VerticalAlignment="Top" Width="123" RenderTransformOrigin="0.474,0.521"/>
+			</Grid>
+			<Grid Grid.Row="2" Grid.Column="0">
+				<TextBlock Style="{StaticResource esxiStyle}" TextWrapping="Wrap" Text="ESXI DATA SERVER 7" Margin="0,16,2,145" RenderTransformOrigin="0.5,0.5"/>
+				<TextBlock  Style="{StaticResource statStyle}" Margin="2,89,183,87" TextWrapping="Wrap" Text="Status : " RenderTransformOrigin="0.5,0.5"/>
+				<TextBlock  Style="{StaticResource statStyle}" HorizontalAlignment="Left" Height="23" Margin="4,172,0,0" TextWrapping="Wrap" Text="Ping :" VerticalAlignment="Top" Width="78"/>
+				<ToggleSwitch HorizontalAlignment="Left" Height="48" Margin="101,77,0,0" VerticalAlignment="Top" Width="123" RenderTransformOrigin="0.474,0.521"/>
+	
+			</Grid>
+			<Grid Grid.Row="2" Grid.Column="1">
+				<TextBlock Style="{StaticResource esxiStyle}" TextWrapping="Wrap" Text="ESXI DATA SERVER 8" Margin="0,16,2,145" RenderTransformOrigin="0.5,0.5"/>
+				<TextBlock Style="{StaticResource statStyle}" Margin="2,89,183,87" TextWrapping="Wrap" Text="Status : " RenderTransformOrigin="0.5,0.5"/>
+				<TextBlock  Style="{StaticResource statStyle}" HorizontalAlignment="Left" Height="23" Margin="4,172,0,0" TextWrapping="Wrap" Text="Ping :" VerticalAlignment="Top" Width="78"/>
+				<ToggleSwitch HorizontalAlignment="Left" Height="48" Margin="101,77,0,0" VerticalAlignment="Top" Width="123" RenderTransformOrigin="0.474,0.521"/>
+	
+			</Grid>
+			<Grid Grid.Row="2" Grid.Column="2">
+				<TextBlock Style="{StaticResource esxiStyle}" TextWrapping="Wrap" Text="ESXI DATA SERVER 9" Margin="0,16,2,145" RenderTransformOrigin="0.5,0.5"/>
+				<TextBlock  Style="{StaticResource statStyle}" Margin="2,89,183,87" TextWrapping="Wrap" Text="Status : " RenderTransformOrigin="0.5,0.5"/>
+				<TextBlock  Style="{StaticResource statStyle}" HorizontalAlignment="Left" Height="23" Margin="4,172,0,0" TextWrapping="Wrap" Text="Ping :" VerticalAlignment="Top" Width="78"/>
+				<ToggleSwitch HorizontalAlignment="Left" Height="48" Margin="101,77,0,0" VerticalAlignment="Top" Width="123" RenderTransformOrigin="0.474,0.521"/>
+			</Grid>
+
+			<Grid Grid.Row="0" Grid.Column="4" Grid.RowSpan="3">
+				<Grid.RowDefinitions>
+					<RowDefinition Height="1*"/>
+					<RowDefinition Height="1*"/>
+					<RowDefinition Height="1*"/>
+					<RowDefinition Height="2*"/>
+				</Grid.RowDefinitions>
+				<Grid Grid.Row="0">
+					<TextBlock Style="{StaticResource esxiStyle}" TextWrapping="Wrap" Text="DOMAIN CONTROLLER 1 " Margin="2,2,0,75" RenderTransformOrigin="0.5,0.5"/>
+					<TextBlock  Style="{StaticResource statStyle}" Margin="2,41,457,36" TextWrapping="Wrap" Text="Status : " RenderTransformOrigin="0.5,0.5"/>
+					<TextBlock  Style="{StaticResource statStyle}" HorizontalAlignment="Left" Height="23" Margin="196,90,0,0" TextWrapping="Wrap" Text="Ping :" VerticalAlignment="Top" Width="78"/>
+					<ToggleSwitch HorizontalAlignment="Left" Height="42" Margin="105,25,0,0" VerticalAlignment="Top" Width="124" RenderTransformOrigin="0.409,0.5"/>
+				</Grid>
+				<Grid Grid.Row="1">
+					<TextBlock Style="{StaticResource esxiStyle}" TextWrapping="Wrap" Text="DOMAIN CONTROLLER 2 " Margin="2,2,0,75" RenderTransformOrigin="0.5,0.5"/>
+					<TextBlock  Style="{StaticResource statStyle}" Margin="2,41,457,36" TextWrapping="Wrap" Text="Status : " RenderTransformOrigin="0.5,0.5"/>
+					<TextBlock  Style="{StaticResource statStyle}" HorizontalAlignment="Left" Height="23" Margin="196,90,0,0" TextWrapping="Wrap" Text="Ping :" VerticalAlignment="Top" Width="78"/>
+					<ToggleSwitch HorizontalAlignment="Left" Height="42" Margin="105,25,0,0" VerticalAlignment="Top" Width="124" RenderTransformOrigin="0.409,0.5"/>
+				</Grid>
+				<Grid Grid.Row="2">
+					<TextBlock Style="{StaticResource esxiStyle}" TextWrapping="Wrap" Text="WEB SERVER " Margin="2,2,0,75" RenderTransformOrigin="0.5,0.5"/>
+					<TextBlock  Style="{StaticResource statStyle}" Margin="2,41,457,36" TextWrapping="Wrap" Text="Status : " RenderTransformOrigin="0.5,0.5"/>
+					<TextBlock  Style="{StaticResource statStyle}" HorizontalAlignment="Left" Height="23" Margin="196,90,0,0" TextWrapping="Wrap" Text="Ping :" VerticalAlignment="Top" Width="78"/>
+					<ToggleSwitch HorizontalAlignment="Left" Height="42" Margin="105,25,0,0" VerticalAlignment="Top" Width="124" RenderTransformOrigin="0.409,0.5"/>
+				</Grid>
+				<Grid Grid.Row="3">
+					<Controls:Gauge HorizontalAlignment="Left" Height="182" Margin="108,54,0,0" VerticalAlignment="Top" Width="270"/>
+					<TextBlock Style="{StaticResource esxiStyle}" HorizontalAlignment="Left" Height="54" Margin="12,29,0,0" TextWrapping="Wrap" Text="NETWORK SPEED" VerticalAlignment="Top" Width="144"/>
+				</Grid>
+
+			</Grid>
+
+       
+		</Grid>
+	</Grid>
+</Page>

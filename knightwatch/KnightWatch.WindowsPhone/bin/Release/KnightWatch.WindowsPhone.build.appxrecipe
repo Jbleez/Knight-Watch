@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>JBLEEZ</Machine>
+    <WindowsUser>JLee</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>e0d9da63-311d-4e6f-867f-1c84e5028848</PackageIdentityName>
+    <IntermediateOutputPath>F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.WindowsPhone\obj\Release\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.WindowsPhone\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.WindowsPhone\bin\Release\KnightWatch.WindowsPhone.exe">
+      <PackagePath>KnightWatch.WindowsPhone.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit.Controls.DataVisualization.dll">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.Gauge.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit.Controls.Gauge.dll">
+      <PackagePath>WinRTXamlToolkit.Controls.Gauge.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit.dll">
+      <PackagePath>WinRTXamlToolkit.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.WindowsPhone\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.WindowsPhone\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.WindowsPhone\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.WindowsPhone\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.WindowsPhone\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.WindowsPhone\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.WindowsPhone\bin\Release\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.WindowsPhone\bin\Release\MainPageItemsControl.xbf">
+      <PackagePath>MainPageItemsControl.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.WindowsPhone\bin\Release\Views\AdminView.xbf">
+      <PackagePath>Views\AdminView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.WindowsPhone\bin\Release\Views\BackupsView.xbf">
+      <PackagePath>Views\BackupsView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.WindowsPhone\bin\Release\Views\HelpDesk.xbf">
+      <PackagePath>Views\HelpDesk.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.WindowsPhone\bin\Release\Views\NetworkView.xbf">
+      <PackagePath>Views\NetworkView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.WindowsPhone\bin\Release\Views\pduView.xbf">
+      <PackagePath>Views\pduView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.WindowsPhone\bin\Release\Views\powerstripsView.xbf">
+      <PackagePath>Views\powerstripsView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.WindowsPhone\bin\Release\Views\PowerView.xbf">
+      <PackagePath>Views\PowerView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.WindowsPhone\bin\Release\Views\VirtualView.xbf">
+      <PackagePath>Views\VirtualView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.WindowsPhone\bin\Release\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.WindowsPhone\bin\Release\KnightWatch.WindowsPhone.xr.xml">
+      <PackagePath>KnightWatch.WindowsPhone.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit\WinRTXamlToolkit.xr.xml">
+      <PackagePath>WinRTXamlToolkit\WinRTXamlToolkit.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit\Controls\AlternativeFrame\AlternativeFrame.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\AlternativeFrame\AlternativeFrame.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit\Controls\AnimatingContainer\AnimatingContainer.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\AnimatingContainer\AnimatingContainer.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit\Controls\CameraCaptureControl\CameraCaptureControl.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\CameraCaptureControl\CameraCaptureControl.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit\Controls\CascadingImageControl\CascadingImageControl.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\CascadingImageControl\CascadingImageControl.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit\Controls\CascadingTextBlock\CascadingTextBlock.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\CascadingTextBlock\CascadingTextBlock.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit\Controls\ColorPicker\ColorPicker.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\ColorPicker\ColorPicker.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit\Controls\CountdownControl\CountdownControl.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\CountdownControl\CountdownControl.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit\Controls\CustomGridSplitter\CustomGridSplitter.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\CustomGridSplitter\CustomGridSplitter.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit\Controls\DelayedLoadControl\DelayedLoadControl.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\DelayedLoadControl\DelayedLoadControl.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit\Controls\FxContentControl\FxContentControl.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\FxContentControl\FxContentControl.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit\Controls\ImageButton\ImageButton.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\ImageButton\ImageButton.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit\Controls\ImageToggleButton\ImageToggleButton.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\ImageToggleButton\ImageToggleButton.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit\Controls\InputDialog\InputDialog.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\InputDialog\InputDialog.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit\Controls\ListItemButton\ListItemButton.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\ListItemButton\ListItemButton.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit\Controls\NumericUpDown\NumericUpDown.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\NumericUpDown\NumericUpDown.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit\Controls\ToolWindow\ToolWindow.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\ToolWindow\ToolWindow.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit\Controls\TreeView\TreeView.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeView.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit\Controls\TreeView\TreeViewItem.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeViewItem.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit\Controls\TreeView\TreeViewMouse.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeViewMouse.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit\Controls\TreeView\TreeViewTouch.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeViewTouch.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit\Controls\WatermarkPasswordBox\WatermarkPasswordBox.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\WatermarkPasswordBox\WatermarkPasswordBox.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit\Controls\WatermarkTextBox\WatermarkTextBox.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\WatermarkTextBox\WatermarkTextBox.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit\Themes\Generic.xbf">
+      <PackagePath>WinRTXamlToolkit\Themes\Generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit.Controls.DataVisualization\WinRTXamlToolkit.Controls.DataVisualization.xr.xml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\WinRTXamlToolkit.Controls.DataVisualization.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\AxisLabel.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\AxisLabel.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\DateTimeAxisLabel.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\DateTimeAxisLabel.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\DisplayAxis.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\DisplayAxis.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\NumericAxisLabel.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\NumericAxisLabel.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\RangeAxis.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\RangeAxis.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit.Controls.DataVisualization\Charting\Chart\Chart.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Chart\Chart.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\AreaDataPoint.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\AreaDataPoint.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\BarDataPoint.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\BarDataPoint.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\BubbleDataPoint.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\BubbleDataPoint.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\ColumnDataPoint.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\ColumnDataPoint.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\LineDataPoint.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\LineDataPoint.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\PieDataPoint.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\PieDataPoint.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\ScatterDataPoint.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\ScatterDataPoint.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit.Controls.DataVisualization\Charting\Primitives\DelegatingListBox.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Primitives\DelegatingListBox.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\AreaSeries.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\AreaSeries.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\DataPointSeries.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\DataPointSeries.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\DefinitionSeries.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\DefinitionSeries.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\LegendItem.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\LegendItem.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\LineSeries.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\LineSeries.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\PieSeries.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\PieSeries.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit.Controls.DataVisualization\Legend\Legend.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Legend\Legend.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit.Controls.DataVisualization\Themes\Generic.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Themes\Generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit.Controls.DataVisualization\Title\Title.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Title\Title.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.Gauge.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit.Controls.Gauge\WinRTXamlToolkit.Controls.Gauge.xr.xml">
+      <PackagePath>WinRTXamlToolkit.Controls.Gauge\WinRTXamlToolkit.Controls.Gauge.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.Gauge.WindowsPhone.1.7.3.0\lib\wpa\WinRTXamlToolkit.Controls.Gauge\Themes\Generic.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.Gauge\Themes\Generic.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="F:\KnightWatch\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.WindowsPhone\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WIN9-VM</Machine>
+    <WindowsUser>bulze_000</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>77198afd-8309-42b9-a40b-b78686c0f0b4</PackageIdentityName>
+    <IntermediateOutputPath>E:\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\obj\Release\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>9E4AD6C023939692570E47195D971CE1882CE2567C0421EB0A1F55F994A112EE</RegisteredManifestChecksum>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="E:\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-10-13T19:32:55.424</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\bin\Release\KnightWatch.Windows.exe">
+      <PackagePath>KnightWatch.Windows.exe</PackagePath>
+      <Modified>2014-10-16T23:49:03.399</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.Calendar.Windows.1.7.3.0\lib\netcore451\WinRTXamlToolkit.Controls.Calendar.dll">
+      <PackagePath>WinRTXamlToolkit.Controls.Calendar.dll</PackagePath>
+      <Modified>2014-09-26T21:33:01.712</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore451\WinRTXamlToolkit.Controls.DataVisualization.dll">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization.dll</PackagePath>
+      <Modified>2014-09-26T21:33:05.481</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.Gauge.Windows.1.7.3.0\lib\netcore451\WinRTXamlToolkit.Controls.Gauge.dll">
+      <PackagePath>WinRTXamlToolkit.Controls.Gauge.dll</PackagePath>
+      <Modified>2014-09-28T15:29:08.241</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit.dll">
+      <PackagePath>WinRTXamlToolkit.dll</PackagePath>
+      <Modified>2014-09-26T21:33:08.371</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\Assets\120405-1e-w.jpg">
+      <PackagePath>Assets\120405-1e-w.jpg</PackagePath>
+      <Modified>2014-10-01T14:13:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\Assets\environment.jpg">
+      <PackagePath>Assets\environment.jpg</PackagePath>
+      <Modified>2014-10-01T14:13:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\Assets\Management-System-2.jpg">
+      <PackagePath>Assets\Management-System-2.jpg</PackagePath>
+      <Modified>2014-10-01T14:13:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\Assets\network_management_mid.jpg">
+      <PackagePath>Assets\network_management_mid.jpg</PackagePath>
+      <Modified>2014-10-01T14:13:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\Assets\power-on-button-blue-610.jpg">
+      <PackagePath>Assets\power-on-button-blue-610.jpg</PackagePath>
+      <Modified>2014-10-01T14:13:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\Assets\Administration.jpeg">
+      <PackagePath>Assets\Administration.jpeg</PackagePath>
+      <Modified>2014-10-01T14:13:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\Assets\bg.png">
+      <PackagePath>Assets\bg.png</PackagePath>
+      <Modified>2014-10-01T14:13:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\Assets\critical.png">
+      <PackagePath>Assets\critical.png</PackagePath>
+      <Modified>2014-10-01T04:02:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\Assets\Drive-Backup-icon.png">
+      <PackagePath>Assets\Drive-Backup-icon.png</PackagePath>
+      <Modified>2014-10-01T14:13:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T17:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\Assets\s2.png">
+      <PackagePath>Assets\s2.png</PackagePath>
+      <Modified>2014-10-01T14:13:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\Assets\Settings-Backup-Sync-icon.png">
+      <PackagePath>Assets\Settings-Backup-Sync-icon.png</PackagePath>
+      <Modified>2014-10-01T17:12:13.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T17:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T17:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T17:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\Assets\virtual-environment-easy-thumb.png">
+      <PackagePath>Assets\virtual-environment-easy-thumb.png</PackagePath>
+      <Modified>2014-10-01T14:13:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\Assets\critical.svg">
+      <PackagePath>Assets\critical.svg</PackagePath>
+      <Modified>2014-10-01T04:02:00.548</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\bin\Release\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-10-13T19:32:51.909</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\bin\Release\MainPageItemsControl.xbf">
+      <PackagePath>MainPageItemsControl.xbf</PackagePath>
+      <Modified>2014-10-13T19:32:51.913</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\bin\Release\Views\AdminView.xbf">
+      <PackagePath>Views\AdminView.xbf</PackagePath>
+      <Modified>2014-10-13T19:32:51.914</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\bin\Release\Views\BackupsView.xbf">
+      <PackagePath>Views\BackupsView.xbf</PackagePath>
+      <Modified>2014-10-13T19:32:51.920</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\bin\Release\Views\HelpDesk.xbf">
+      <PackagePath>Views\HelpDesk.xbf</PackagePath>
+      <Modified>2014-10-13T19:32:51.926</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\bin\Release\Views\NetworkView.xbf">
+      <PackagePath>Views\NetworkView.xbf</PackagePath>
+      <Modified>2014-10-13T19:32:51.927</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\bin\Release\Views\pduView.xbf">
+      <PackagePath>Views\pduView.xbf</PackagePath>
+      <Modified>2014-10-13T19:32:51.928</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\bin\Release\Views\powerstripsView.xbf">
+      <PackagePath>Views\powerstripsView.xbf</PackagePath>
+      <Modified>2014-10-13T19:32:51.935</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\bin\Release\Views\PowerView.xbf">
+      <PackagePath>Views\PowerView.xbf</PackagePath>
+      <Modified>2014-10-13T19:32:51.946</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\bin\Release\Views\VirtualView.xbf">
+      <PackagePath>Views\VirtualView.xbf</PackagePath>
+      <Modified>2014-10-13T19:32:51.947</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\bin\Release\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2014-10-16T23:49:01.763</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\bin\Release\KnightWatch.Windows.xr.xml">
+      <PackagePath>KnightWatch.Windows.xr.xml</PackagePath>
+      <Modified>2014-10-16T23:49:01.314</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\WinRTXamlToolkit.xr.xml">
+      <PackagePath>WinRTXamlToolkit\WinRTXamlToolkit.xr.xml</PackagePath>
+      <Modified>2014-09-26T21:33:08.377</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\AlternativeFrame\AlternativeFrame.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\AlternativeFrame\AlternativeFrame.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:08.589</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\AnimatingContainer\AnimatingContainer.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\AnimatingContainer\AnimatingContainer.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:09.163</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\CameraCaptureControl\CameraCaptureControl.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\CameraCaptureControl\CameraCaptureControl.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:09.235</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\CascadingImageControl\CascadingImageControl.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\CascadingImageControl\CascadingImageControl.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:08.426</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\CascadingTextBlock\CascadingTextBlock.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\CascadingTextBlock\CascadingTextBlock.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:08.952</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\ColorPicker\ColorPicker.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\ColorPicker\ColorPicker.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:09.208</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\CountdownControl\CountdownControl.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\CountdownControl\CountdownControl.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:08.509</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\CustomAppBar\CustomAppBar.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\CustomAppBar\CustomAppBar.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:09.010</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\CustomGridSplitter\CustomGridSplitter.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\CustomGridSplitter\CustomGridSplitter.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:09.072</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\DelayedLoadControl\DelayedLoadControl.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\DelayedLoadControl\DelayedLoadControl.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:09.083</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\FxContentControl\FxContentControl.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\FxContentControl\FxContentControl.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:09.148</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\ImageButton\ImageButton.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\ImageButton\ImageButton.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:09.251</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\ImageToggleButton\ImageToggleButton.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\ImageToggleButton\ImageToggleButton.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:08.445</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\InputDialog\InputDialog.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\InputDialog\InputDialog.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:08.382</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\ListItemButton\ListItemButton.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\ListItemButton\ListItemButton.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:08.531</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\NumericUpDown\NumericUpDown.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\NumericUpDown\NumericUpDown.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:08.972</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\ToolWindow\ToolWindow.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\ToolWindow\ToolWindow.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:09.058</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\TreeView\TreeView.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeView.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:08.899</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\TreeView\TreeViewItem.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeViewItem.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:08.865</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\TreeView\TreeViewMouse.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeViewMouse.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:08.833</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\TreeView\TreeViewTouch.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\TreeView\TreeViewTouch.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:08.937</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\WatermarkPasswordBox\WatermarkPasswordBox.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\WatermarkPasswordBox\WatermarkPasswordBox.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:08.564</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\WatermarkTextBox\WatermarkTextBox.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\WatermarkTextBox\WatermarkTextBox.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:09.189</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Controls\WebBrowser\WebBrowser.xbf">
+      <PackagePath>WinRTXamlToolkit\Controls\WebBrowser\WebBrowser.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:08.463</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit\Themes\Generic.xbf">
+      <PackagePath>WinRTXamlToolkit\Themes\Generic.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:09.300</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.Calendar.Windows.1.7.3.0\lib\netcore451\WinRTXamlToolkit.Controls.Calendar\WinRTXamlToolkit.Controls.Calendar.xr.xml">
+      <PackagePath>WinRTXamlToolkit.Controls.Calendar\WinRTXamlToolkit.Controls.Calendar.xr.xml</PackagePath>
+      <Modified>2014-09-26T21:33:01.823</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.Calendar.Windows.1.7.3.0\lib\netcore451\WinRTXamlToolkit.Controls.Calendar\Controls\Calendar\Calendar.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.Calendar\Controls\Calendar\Calendar.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:01.771</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.Calendar.Windows.1.7.3.0\lib\netcore451\WinRTXamlToolkit.Controls.Calendar\Controls\Calendar\CalendarButton.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.Calendar\Controls\Calendar\CalendarButton.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:01.760</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.Calendar.Windows.1.7.3.0\lib\netcore451\WinRTXamlToolkit.Controls.Calendar\Controls\Calendar\CalendarDayButton.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.Calendar\Controls\Calendar\CalendarDayButton.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:01.752</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.Calendar.Windows.1.7.3.0\lib\netcore451\WinRTXamlToolkit.Controls.Calendar\Controls\Calendar\CalendarItem.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.Calendar\Controls\Calendar\CalendarItem.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:01.767</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.Calendar.Windows.1.7.3.0\lib\netcore451\WinRTXamlToolkit.Controls.Calendar\Themes\Generic.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.Calendar\Themes\Generic.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:01.786</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore451\WinRTXamlToolkit.Controls.DataVisualization\WinRTXamlToolkit.Controls.DataVisualization.xr.xml">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\WinRTXamlToolkit.Controls.DataVisualization.xr.xml</PackagePath>
+      <Modified>2014-09-26T21:33:05.936</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore451\WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\AxisLabel.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\AxisLabel.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:05.597</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore451\WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\DateTimeAxisLabel.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\DateTimeAxisLabel.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:05.589</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore451\WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\DisplayAxis.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\DisplayAxis.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:05.655</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore451\WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\NumericAxisLabel.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\NumericAxisLabel.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:05.627</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore451\WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\RangeAxis.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Axis\RangeAxis.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:05.594</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore451\WinRTXamlToolkit.Controls.DataVisualization\Charting\Chart\Chart.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Chart\Chart.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:05.486</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore451\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\AreaDataPoint.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\AreaDataPoint.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:05.546</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore451\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\BarDataPoint.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\BarDataPoint.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:05.534</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore451\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\BubbleDataPoint.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\BubbleDataPoint.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:05.549</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore451\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\ColumnDataPoint.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\ColumnDataPoint.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:05.527</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore451\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\LineDataPoint.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\LineDataPoint.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:05.542</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore451\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\PieDataPoint.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\PieDataPoint.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:05.530</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore451\WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\ScatterDataPoint.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\DataPoint\ScatterDataPoint.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:05.539</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore451\WinRTXamlToolkit.Controls.DataVisualization\Charting\Primitives\DelegatingListBox.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Primitives\DelegatingListBox.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:05.804</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore451\WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\AreaSeries.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\AreaSeries.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:05.774</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore451\WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\DataPointSeries.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\DataPointSeries.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:05.789</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore451\WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\DefinitionSeries.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\DefinitionSeries.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:05.777</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore451\WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\LegendItem.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\LegendItem.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:05.785</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore451\WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\LineSeries.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\LineSeries.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:05.768</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore451\WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\PieSeries.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Charting\Series\PieSeries.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:05.781</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore451\WinRTXamlToolkit.Controls.DataVisualization\Legend\Legend.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Legend\Legend.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:05.918</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore451\WinRTXamlToolkit.Controls.DataVisualization\Themes\Generic.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Themes\Generic.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:05.903</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.DataVisualization.1.6.1.3\lib\netcore451\WinRTXamlToolkit.Controls.DataVisualization\Title\Title.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.DataVisualization\Title\Title.xbf</PackagePath>
+      <Modified>2014-09-26T21:33:05.851</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.Gauge.Windows.1.7.3.0\lib\netcore451\WinRTXamlToolkit.Controls.Gauge\WinRTXamlToolkit.Controls.Gauge.xr.xml">
+      <PackagePath>WinRTXamlToolkit.Controls.Gauge\WinRTXamlToolkit.Controls.Gauge.xr.xml</PackagePath>
+      <Modified>2014-09-28T15:29:08.211</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\packages\WinRTXamlToolkit.Controls.Gauge.Windows.1.7.3.0\lib\netcore451\WinRTXamlToolkit.Controls.Gauge\Themes\Generic.xbf">
+      <PackagePath>WinRTXamlToolkit.Controls.Gauge\Themes\Generic.xbf</PackagePath>
+      <Modified>2014-09-28T15:29:08.203</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\trunk\code\KnightWatchClient\KnightWatch\KnightWatch.Windows\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-10-13T19:32:54.429</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

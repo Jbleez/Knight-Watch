@@ -1,0 +1,47 @@
+﻿<Application
+    x:Class="KnightWatch.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:KnightWatch"
+    xmlns:Charting="using:WinRTXamlToolkit.Controls.DataVisualization.Charting"
+    xmlns:datavis="using:WinRTXamlToolkit.Controls.DataVisualization">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            
+            <DataTemplate x:Key="DataTemplateGridViewMainPage">
+                <local:MainPageItemsControl />
+            </DataTemplate>
+      
+        <Style
+        TargetType="Charting:BarDataPoint" x:Key="CustomBarStyle">
+                <Setter
+            Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate
+                    TargetType="Charting:BarDataPoint">
+                            <Border
+                        BorderBrush="{TemplateBinding BorderBrush}"
+                        BorderThickness="{TemplateBinding BorderThickness}"
+                        Opacity="0"
+                        x:Name="Root">
+                               
+                                <Grid>
+                                    <TextBlock VerticalAlignment="Center" Text="{TemplateBinding FormattedDependentValue}" Margin="0,-15,0,0" FontSize="52"  Foreground="Black"/>
+                                    <!--This is where we add the TextBlock that shows the value above the column-->
+                                    
+                                </Grid>
+                                <!--<ToolTipService.ToolTip>
+                                    <ContentControl
+                                Content="{TemplateBinding FormattedDependentValue}" />  //Disabled ToolTip because we are using TextBlock above
+                                </ToolTipService.ToolTip>-->
+                            </Border>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+
+</Application>
+
