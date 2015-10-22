@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="KnightWatchWebAPIContext-Web.config Connection String" description="KnightWatchWebAPIContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=(localdb)\v11.0; Initial Catalog=KnightWatchWebAPIContext-20140911021607; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|KnightWatchWebAPIContext-20140911021607.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Frog\ Chaser\\Documents\\KnightWatchProject\\netmonitor\\trunk\\code\\KnightWatchWebAPI\\KnightWatchWebAPI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='KnightWatchWebAPIContext']/@connectionString" />
+  </parameter>
+</parameters>
